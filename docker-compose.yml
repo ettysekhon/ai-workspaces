@@ -1,0 +1,7 @@
+services:
+  deepseek-api:
+    build:
+      context: .
+      dockerfile: packages/deepseek-api/Dockerfile
+    ports:
+      - "8000:8000"
