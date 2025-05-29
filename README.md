@@ -98,7 +98,11 @@ data: {"type": "finish"}
 
 ## Quick start (Docker Compose)
 
-Simply clone the repo and run make start:
+Simply clone the repo, add your Deepseek API key to the .env file and run make start:
+
+```bash
+cp ./packages/deepseek-api/.env_sample ./packages/deepseek-api/.env
+```
 
 ```bash
 make start
